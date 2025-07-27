@@ -28,6 +28,12 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.2'
+  gem 'pg', '~> 1.5'
   gem 'rails_12factor'
 end
+
+# Tooling
+gem "ruby-lsp", require: false, group: :development
+gem "standard", group: :development
+gem "standard-rails", require: false, group: :development
+gem "erb-formatter", group: :development

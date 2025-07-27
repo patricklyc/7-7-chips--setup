@@ -15,7 +15,10 @@ Rottenpotatoes::Application.configure do
   config.serve_static_files = false
 
   # Compress JavaScripts and CSS
-  config.assets.js_compressor = :uglifier
+  # config.assets.js_compressor = :uglifier
+  # https://stackoverflow.com/questions/56063066/es6-syntax-harmony-mode-must-be-enabled-with-uglifier-newharmony-true
+  # config.assets.js_compressor = Uglifier.new(harmony: true)
+  # I couldn't make it work so I'm just disabling uglyfier
 
   # DO fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
@@ -33,7 +36,7 @@ Rottenpotatoes::Application.configure do
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
-  See everything in the log (default is :info)
+  # See everything in the log (default is :info)
   config.log_level = :debug
 
   # Use a different logger for distributed setups
