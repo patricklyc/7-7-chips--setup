@@ -36,3 +36,6 @@ The build is going to take a while. You can get up and stretch. Sorry I don't ha
 When you get to this part, click "Open in browser" to see your app.
 
 <img width="994" height="384" alt="image" src="https://github.com/user-attachments/assets/0ecc288e-ec35-419a-a397-a83a2a78c3a4" />
+
+# Original README
+"canonical" solution to the Rails Intro homework against which to write your scenarios, and the necessary scaffolding for the first couple of scenarios

@@ -1,5 +1,12 @@
 {
-  "build": { "dockerfile": "Dockerfile" },
-  "postCreateCommand": "cd rottenpotatoes/"
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shopify.ruby-extensions-pack"
+      ]
+    }
+  }
 }
-
