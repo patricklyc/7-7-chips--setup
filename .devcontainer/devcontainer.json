@@ -1,4 +1,5 @@
 {
-  "build": { "dockerfile": "Dockerfile" }
+  "build": { "dockerfile": "Dockerfile" },
+  "postCreateCommand": "cd rottenpotatoes/"
 }
 
